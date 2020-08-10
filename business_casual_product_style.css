@@ -1,0 +1,94 @@
+body{
+    font-family: 'Lora';
+    /* background-image: radial-gradient(green,blue); */
+    background-image: linear-gradient(rgba(99, 59, 46, 0.65), rgba(114, 43, 19, 0.65)),
+    url("D:/Antony/websites/startbootstrap-business-casual-master/img/bg.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 200px 500px; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+.site-heading{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    font-family:'Raleway';
+    line-height:1;
+    text-transform:uppercase;
+
+}
+.site-heading .site-heading-upper{
+    display:block;
+    /* text-transform:uppercase; */
+    font-weight:800;
+    font-size:2rem;
+}
+.site-heading .site-heading-lower{
+    /* display:block; */
+    font-size:5rem;
+    font-weight:100;
+    /* line-height:4rem; */
+    line-height:1.3;
+}
+#mainNav{
+    background-color: rgb(75, 16, 16);
+    font-family:'Raleway';
+}
+
+/* **********************section 1 *******************/
+.page-section{
+    margin-top:5rem;
+    margin-bottom:5rem;
+}
+.bg-faded{
+    /* background-color: honeydew; */
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.section-heading{
+    text-transform:uppercase;
+}
+.section-heading .section-heading-upper{
+    display:block;
+    font-size:1rem;
+    font-weight:800;
+}
+.section-heading .section-heading-lower{
+    display:block;
+    font-size:3rem;
+    font-weight:100;
+}
+.product-item-title{
+    margin-bottom:-3rem;
+    position:relative;
+    z-index:1;
+}
+.product-item-img{
+    position:relative;
+    z-index:0;
+    max-width:60vw;
+}
+/* p{background-color: yellow;} */
+
+.product-item-description{
+    position:relative;
+    margin-top:-3rem;
+    max-width:50vw;
+    z-index:1;
+
+}
+
+/* **************media queries ******************/
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+      font-size: 0.9rem;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: rgba(255, 255, 255, 0.4);
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+      color: #e6a756;
+    }
+  }
+  

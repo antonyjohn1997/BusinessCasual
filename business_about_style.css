@@ -1,0 +1,95 @@
+body{
+    font-family:'Lora';
+    background-image:linear-gradient(rgba(55,22,10,0.65),rgba(55,22,10,0.65)), url("D:/Antony/websites/startbootstrap-business-casual-master/img/bg.jpg");
+    /* background-size: 100px; */
+    /* background-repeat: no-repeat; */
+    /* height:100px; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+h1{
+    font-family:'Raleway';
+}
+
+.site-heading{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    text-transform:uppercase;
+    line-height:1;
+    font-family:'Raleway';
+}
+.site-heading .site-heading-upper{
+    display:block;
+    font-size:2rem;
+    font-weight:800;
+
+}
+.site-heading .site-heading-lower{
+    font-size:5rem;font-weight:100;line-height:4rem;
+}
+
+/* ******************nav *******************/
+
+#mainNav{
+    background-color:rgb(24, 9, 9);
+    font-family:"Raleway";
+}
+
+/* *************************section ***********************/
+
+.page-section{
+    margin-top:5rem;
+    margin-bottom:5rem;
+}
+@media (min-width:992px){
+.about-heading .about-heading-img{
+    position:relative;
+    z-index:0;
+}
+.about-heading .about-heading-content{
+    position:relative;
+    margin-top:-5rem;
+    z-index:1;
+
+}
+}
+.bg-faded{
+    background-color: grey;
+}
+.section-heading{
+    text-transform:uppercase;
+}
+.section-heading .section-heading-upper{
+    display:block;
+    font-size:1rem;
+    font-weight:1000;
+}
+.section-heading .section-heading-lower{
+    display:block;
+    font-size:3rem;
+    font-weight:100;
+}
+/* **************footer *********************/
+.footer{
+    background-color: rgb(48, 9, 9);
+}
+.text-faded{
+    color:grey;
+}
+/* ************ *extra
+
+@media (max-width:991px){
+    .aaa{
+       background-color: hotpink;
+       margin-top:10px;
+    }
+   }
+@media (min-width:992px){
+ .aaa{
+    background-color: hotpink;
+    margin-top:-110px;
+ }
+}
+******** extra  */
