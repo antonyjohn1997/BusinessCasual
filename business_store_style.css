@@ -22,8 +22,8 @@
 
 }
 nav {
-    /* background-color: rgba(47, 23, 15, 0.9) !important;see the difference when romove the !important */
-    /* font-family: 'Raleway'; */
+    background-color: rgba(47, 23, 15, 0.9) !important;/*see the difference when romove the !important*/
+    font-family: 'Raleway';
   }
 
 body{
@@ -31,3 +31,11 @@ body{
     background-image:url("D:/Antony/websites/startbootstrap-business-casual-master/img/bg.jpg");
     
 }
+/*
+#mainNav .navbar-nav .nav-item .nav-link {
+    color:green;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color:green;
+}*/
+#mainNav .navbar-nav .nav-item .nav-link {color:yellow;}
