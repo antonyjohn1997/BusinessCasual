@@ -21,3 +21,13 @@
     font-family:'Raleway';
 
 }
+nav {
+    /* background-color: rgba(47, 23, 15, 0.9) !important;see the difference when romove the !important */
+    /* font-family: 'Raleway'; */
+  }
+
+body{
+    font-family:'Lora';
+    background-image:url("D:/Antony/websites/startbootstrap-business-casual-master/img/bg.jpg");
+    
+}
