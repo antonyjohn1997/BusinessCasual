@@ -42,9 +42,9 @@ body{
 
 /**************************** section ************************/
 .page-section{
-    margin-top:5rem;
-    margin-bottom:5rem;
-}
+      margin-top:5rem;
+      margin-bottom:5rem;
+  }
 .cta{
     padding-top:5rem;
     padding-bottom:5rem;
@@ -101,4 +101,10 @@ body{
 .today{
     color:orange;
     font-weight:bold;
+}
+@media (min-width:992px){
+    .about-heading .about-heading-img{
+        position:relative;
+        z-index:0;
+    }
 }
