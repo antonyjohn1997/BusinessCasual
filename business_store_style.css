@@ -98,3 +98,7 @@ body{
 .c{
     background-color: salmon;
 }
+.today{
+    color:orange;
+    font-weight:bold;
+}
