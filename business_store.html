@@ -99,6 +99,7 @@
 </nav>-->
 
 <!-- --------------------------------------- section ------------------------------------->
+<!--
 <section class="page-section cta">
   <div class="container">
     <div class="row">
@@ -116,7 +117,7 @@
                              <li class="list-unstyled-item list-hours-item d-flex">Monday 
                                <span class="ml-auto">7:00 AM to 8:00 PM</span><!--ml-auto working only with when d-flex class for parent element-->
 
-                               </li>
+                             <!---  </li>
                              <li class="list-unstyled-item list-hours-item d-flex">Tuesday
                                <span class="ml-auto"> 7:00 AM to 8:00 PM</span>
 
@@ -151,19 +152,75 @@
       </div>                        
     </div>                        
   </div>
+</section>-->
+
+<section class="cta page-section"><!--can use class a or b c -->
+  <div class="container "><!--can use class a or b c -->
+    <div class="col-xl-9 mx-auto "><!--can use class a or b c -->
+    <div class="cta-inner text-center rounded ">
+  <h2 class="section-heading mb-5">
+    <span class="section-heading-upper">Come on in </span>
+    <span class="section-heading-lower">Wee are open </span></h2>
+  <ul class="list-unstyled mb-5 text-left list-hours">
+    <li class="list-unstyled-item list-hours-item d-flex">Sunday <span class="ml-auto">Closed</span></li>
+    <li class="list-unstyled-item list-hours-item d-flex">Monday <span class="ml-auto">7.00AM to 8.00PM</span></li>
+    <li class="list-unstyled-item list-hours-item d-flex">Tuesday <span class="ml-auto">7.00AM to 8.00PM</span></li>
+    <li class="list-unstyled-item list-hours-item d-flex">Wednesday <span class="ml-auto">7.00AM to 8.00PM</span></li>
+    <li class="list-unstyled-item list-hours-item d-flex">Thursday <span class="ml-auto">7.00AM to 8.00PM</span></li>
+    <li class="list-unstyled-item list-hours-item d-flex">Friday <span class="ml-auto">7.00AM to 8.00PM</span></li>
+    <li class="list-unstyled-item list-hours-item d-flex">Saturday <span class="ml-auto">7.00AM to 8.00PM</span></li>
+  </ul>
+  <p class="address a mb-5"><em><strong>1116 Orchard Street</strong><!--can use class a or b c -->
+  <br>
+     Golden Valley,Minnesota</em>
+  </p>
+  <p class="b mb-0"><small><em>Call Anytime</em></small><!--can use class a or b c -->
+  <br>
+  5646546468
+ </p>
+ </div>
+ </div>
+ </div>
 </section>
 
 <!-- -------------------------------section 2---------------------->
-<section >
-  <img src="D:\Antony\websites\startbootstrap-business-casual-master\img\about.jpg">
-  <h2>Strong Coffee ,Strong Roots About our Cafe</h2>
-  <p>We guarantee that you will fall in
-    <em>lust</em>
-    with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine,
-     an outing with friends, or simply just to enjoy some alone time.
-  </p>
+<section class="page-section about-heading">
+  <div class="container">
+       
+       <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="D:\Antony\websites\startbootstrap-business-casual-master\img\about.jpg">
+          <div class="about-heading-content">
+            <div class="row">
+              <div class="col-lg-10 col-xl-9 mx-auto">
+                <div class="bg-faded p-5 rounded">
+                
+                   <h2 class="section-heading mb-4">
+                     <span class="section-heading-upper">Strong Coffee ,Strong Roots </span>
+                     <span class="section-heading-lower">About our Cafe</span>
+                    </h2>
+                   <p class="mb-0">We guarantee that you will fall in
+                      <em>lust</em>
+                      with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine,
+                      an outing with friends, or simply just to enjoy some alone time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>    
 
+  </div>
 </section>
+
+<footer class="text-center footer text-faded py-5">
+  <div class="container">
+    <p class="m-0 small">Copyright &copy; Your websites 2018</p>
+  </div>  
+</footer>
+<script>
+  $(function(){
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+
+  });
+</script>
 
 
 
