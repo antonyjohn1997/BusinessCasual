@@ -45,6 +45,7 @@ body{
 .bg-faded{
     /* background-color: honeydew; */
     background-color: rgba(255, 255, 255, 0.85);
+    /* width:100%; */
 }
 /* .a{background-color: aqua;} */
 .section-heading{
