@@ -88,8 +88,15 @@ body{
 }
 .list-hours{
     font-size:1rem;/* see the secion1 without margin left,right*/
-    margin-left:150px;
-    margin-right:150px;
+    /* margin-left:150px; *//*see the difference without @media (min-width:992px) when the screen minimize by addding 
+                                                           m-l m-r with or without*/
+    /* margin-right:150px; */
+}
+@media (min-width:992px){
+    .list-hours{
+        width:50%;
+        font-size:1.1rem;
+    }
 }
 .list-hours-item{
     border-bottom:1px solid red;
