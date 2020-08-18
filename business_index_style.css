@@ -7,7 +7,7 @@ body{
     /* background-size: 100px 300px; */
     /* background-repeat: no-repeat; */
   }
-  
+
   h1{
   font-family:'Raleway' ;
   }
@@ -54,8 +54,9 @@ body{
   margin-top:5rem;
   /* background-color: violet; */
   margin-bottom:5rem;
+
   }
-  .intro{
+  .intro {
   position:relative;
   }
   .bg-faded {
@@ -99,6 +100,7 @@ body{
   background-color: #df902a;
   border-color: #df902a;
   }
+  
   @media (min-width:992px){
   .intro .intro-img{
     width:75%;
