@@ -7,9 +7,8 @@ body{
     /* background-size: 100px 300px; */
     /* background-repeat: no-repeat; */
   }
-  h1{
-  font-family:'Raleway' ;
-  }
+
+  h1{font-family: cursive;}
   .site-heading{
   background-color: darkgoldenrod;
   /* margin-top:80px; */
@@ -53,8 +52,9 @@ body{
   margin-top:5rem;
   /* background-color: violet; */
   margin-bottom:5rem;
+
   }
-  .intro{
+  .intro {
   position:relative;
   }
   .bg-faded {
@@ -98,6 +98,7 @@ body{
   background-color: #df902a;
   border-color: #df902a;
   }
+
   @media (min-width:992px){
   .intro .intro-img{
     width:75%;
@@ -108,17 +109,17 @@ body{
   .intro .intro-text{
     right:0;
     width:45%;
-    margin-top:5rem;/*********************************************************dont work in low screen */
+    margin-top:4rem;/*********************************************************dont work in low screen */
     /* position:relative; */
     position: absolute;
   }
-  .intro .intro-text .intro-button{
+   .intro .intro-text .intro-button{
     position:absolute;
     width:100%;
     left:0;
     bottom:-2rem;
     /* background-color: chartreuse; */
-  }
+    }
   }
   
   /***************************section2*************/
@@ -133,7 +134,7 @@ body{
    margin: 0.5rem;
    background-color: #e4e1dc; 
    border:5px solid green;
-   z-index:;
+   /* z-index:1; */
   
   }
   
