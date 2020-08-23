@@ -9,9 +9,9 @@ body{
     background-attachment: fixed;
 
 }
-/* h1{ */
-    /* font-family:'Raleway'; */
-/* } */
+ h1{
+     font-family:'Raleway'; 
+ }
 
 .site-heading{
     margin-top:5rem;
