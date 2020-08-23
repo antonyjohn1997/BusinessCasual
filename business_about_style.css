@@ -41,7 +41,7 @@ h1{
 
 .page-section{
     margin-top:5rem;
-    /* margin-bottom:5rem; */
+    margin-bottom:5rem;
 }
 @media (min-width:992px){
 .about-heading .about-heading-img{
